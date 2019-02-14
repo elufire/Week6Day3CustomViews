@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomRectangle">
+
+        <attr name="top" format="integer"/>
+        <attr name="bottom" format="integer"/>
+        <attr name="left" format="integer"/>
+        <attr name="right" format="integer"/>
+        <attr name="fillColor" format="integer"/>
+
+    </declare-styleable>
+
+</resources>

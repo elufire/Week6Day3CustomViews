@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.example.week6day3customviews.Rectangle
+        android:id="@+id/custRectangle"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:left="20"
+        app:top="50"
+        app:right="500"
+        app:bottom="500"
+        android:layout_gravity="center"
+        app:fillColor="@color/colorAccent"/>
+
+    <com.example.week6day3customviews.ThreesCompound
+        android:id="@+id/threesCompound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"></com.example.week6day3customviews.ThreesCompound>
+
+    <com.example.week6day3customviews.CustomEditText
+        android:id="@+id/customEditText"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
